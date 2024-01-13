@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+
+/*Header----------*/
+
+.header{
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    border-bottom: 1px solid white;
+}
+
+.logo-div{
+    width: 200px;
+    height: 50px;
+}
+
+.logo-div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-bar ul li a{
+    padding: 20px;
+    color: white;
+    text-decoration: underline;
+}
+.nav-bar ul li a:hover{
+    text-decoration: none;
+}
+
+/*Main----------*/
+
+.main{
+    width: 100%;
+    height: 2000px;
+}
+
+.banner{
+    width: 100%;
+    height: 700px;
+    padding: 0 20px ;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.banner-content{
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.banner-content h2,h4{
+    font-size: 25px;
+    color: white;
+    line-height: 2.5rem;
+}
+/*content in main*/
+.main-content{
+    width: 100%;
+    
+}
+
+.main-content-title{
+    text-align: center;
+    color: white;
+    line-height: 5rem;
+    margin-bottom: 20px;
+}
+
+.main-content-centered{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-content-items{ 
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-content-items h5{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-content-items .item{
+    width: 300px;
+    height: 230px;
+    margin-top: 5px;
+}
+
+.main-content-items img{
+    width: 100%;
+    height: 200px;
+    opacity: 0.5;
+}
+/*locations*/
+
+.main-locations{
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+.main-locations-banner{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 500px;
+    min-height: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location-flex{
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.location{
+    
+    flex-basis: 250px;
+    min-height: 400px;
+    margin: 0px 5px;
+    background-color: black;
+    color: white;
+    line-height: 3.5rem;
+    font-size: 12px;
+}
+
+/*Footer-----*/
+.footer{
+    width: 100%;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-content{
+    text-align: center;
+    line-height: 4rem;
+}
